@@ -1,5 +1,49 @@
 
 .cont1 {
-	height : 100px;
-	padding-top : 10%;
+	height : 10em;
+	background-color: pink;
+}
+
+.cont2 {
+	background-color: pink;
+	padding:0px;
+}
+
+.cont2 {
+	margin : 0px; !important
+}
+
+
+#bootstrap-overrides{
+    display: none;
+    position: relative;
+    .transition(3s ease-in-out left);
+}
+
+.navMachouille{
+	color : purple;
+	background-color: purple;
+	padding : 0px;
+	font-size : 1.5em;
+	font-color:white;
+	margin-bottom: 0;
+	border-bottom: 5px;
+	border-color:black;
+}
+
+.itemForme {
+	padding-left:20px;
+	padding-right:20px;
+	font-color:white;
+}
+
+.btnWhite{
+	color:white;
+	border-color: white;
+	border-radius: 1em;
+	font-size : 1em;
+}
+
+#carouselTrigout{
+	padding-top:50px;
 }
