@@ -1,0 +1,43 @@
+
+.cont1 {
+	height : 10em;
+	background-color: pink;
+}
+
+.cont2 {
+	background-color: pink;
+	padding:0px;
+}
+
+
+
+#bootstrap-overrides{
+    display: none;
+    position: relative;
+    .transition(3s ease-in-out left);
+}
+
+.navMachouille{
+	color : purple;
+	background-color: purple;
+	padding : 0px;
+	font-size : 1.5em;
+	font-color:white;
+	margin-bottom: 0;
+	border-bottom: 5px;
+	border-color:black;
+}
+
+
+.btnWhite{
+	color:white;
+	border-color: white;
+	border-radius: 1em;
+	font-size : 1em;
+}
+
+#carouselTrigout{
+ padding-left : 0;
+ padding-right: 0;
+}
+
