@@ -1,6 +1,9 @@
 
+
+* {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
 .cont1 {
-	height : 10em;
 	background-color: pink;
 }
 
@@ -9,12 +12,19 @@
 	padding:0px;
 }
 
-
+.banniere {
+	max-width: 15%;
+}
 
 #bootstrap-overrides{
     display: none;
     position: relative;
     .transition(3s ease-in-out left);
+}
+.titre h1{
+	padding-top:1%;
+	color:rgb(245,50,245);
+	font-style:bold;
 }
 
 .navMachouille{
@@ -30,10 +40,11 @@
 
 
 .btnWhite{
-	color:white;
+	color:rgb(245,50,245);
 	border-color: white;
 	border-radius: 1em;
-	font-size : 1em;
+	font-size : 0.5em;
+	background-color: transparent;
 }
 
 #carouselTrigout{
@@ -41,3 +52,55 @@
  padding-right: 0;
 }
 
+.accroche {
+	padding-top:1%;
+	padding-bottom:1%;
+	color:rgb(245,50,245);
+}
+
+.accroche h1{
+	color:rgb(245,50,245);
+}
+
+.btnPink {
+	background-color:black;
+	color:pink;
+}
+
+.tailleSVG{
+	height:500px;
+}
+
+.map__image path{
+	fill : #B0C4DE;
+	stroke : #FFF;
+	stoke-width: 1px;
+	transition: fill 0.3s;
+}
+.map__image #FR,#GB,#DE,#ES,#IT,#IN{
+	fill : #DDA0DD;
+}
+.map__image #AU, #PT,#PL,#BR{
+	fill:lightgrey;
+	}
+
+.map__image #AU:hover, #PT:hover,#PL:hover,#BR:hover{
+	fill : #DA70D6;
+}
+div #infoAU, #infoFR, #infoGB, #infoDE, #infoES, #infoIT, #infoIN, #infoPT,#infoPL,#infoBR{
+	width : 60%;
+	font-family : "Calibri";
+	font-style : bold;
+	margin: 0 auto;
+	width : 50%;
+	border-color: #FF69B4; 
+	border-style : solid ;
+	padding : 2%;
+	background-color:#DDA0DD;
+	display : none;
+}
+.generateur #citron,#choco,#fraise, #acheter{
+	display: none;
+}
+	
+	
